@@ -5,10 +5,7 @@ import java.util.Scanner;
 public class CodysClass {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-
         System.out.println("Please enter a string:");
-
         String input = scanner.nextLine();
         System.out.println("You entered: " + input);
         if (StringUtils.isNumeric(input)) {
@@ -18,7 +15,5 @@ public class CodysClass {
         }
         System.out.println("Flipped Case: " + StringUtils.swapCase(input));
         System.out.println("Reversed: " + StringUtils.reverse(input));
-
-
     }
 }
